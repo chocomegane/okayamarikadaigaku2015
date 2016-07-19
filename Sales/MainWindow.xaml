@@ -1,0 +1,58 @@
+﻿<Window x:Class="Sales.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:l="clr-namespace:Sales"
+        Icon="2cccbff5f934d551071a19de1ac311fc_ol.ico"
+        Title="卒業・教職単位管理" Height="550" Width="800" ResizeMode="CanMinimize">
+    <Window.DataContext>
+        <l:MainWindowViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Left">
+            <ComboBox Margin="4" Width="60" ItemsSource="{x:Static l:Years.Items}" SelectedItem="{Binding Path=Year}"/>
+            <TextBlock Margin="4" Text="年度生"/>
+ <!--         <ComboBox Margin="4" Width="200" ItemsSource="{x:Static l:Sections.Items}" SelectedItem="{Binding Path=Section}"/>           -->
+            <Button Margin="4" Content="読み込み" Command="{Binding Path=ReadCommand}"/>
+        </StackPanel>
+        <DataGrid Grid.Row="1" Margin="4" AutoGenerateColumns="False" IsReadOnly="True" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding Path=Items, Mode=OneWay}" SelectedItem="{Binding Path=Item}" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Width="60"
+                    Header="年生"
+                    ElementStyle="{StaticResource CellStyle}"
+                    Binding="{Binding Path=Month}"/>
+                <DataGridTextColumn
+                    Width="120*"
+                    Header="履修単位数"
+                    ElementStyle="{StaticResource CellStyle}"
+                    Binding="{Binding Path=ResultPrice, StringFormat=##\,###\,###}"/>
+                <DataGridTextColumn
+                    Width="120*"
+                    Header="卒業単位不足数"
+                    ElementStyle="{StaticResource CellStyle}"
+                    Binding="{Binding Path=SubtractPrice, StringFormat=##\,###\,###}"/>
+                <DataGridTextColumn
+                    Width="120*"
+                    Header="教職単位不足数"
+                    ElementStyle="{StaticResource CellStyle}"
+                    Binding="{Binding Path=TotalPrice, StringFormat=##\,###\,###}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="2">
+            <Button Command="{Binding Path=ListCommand}" Content="一覧..."/>
+            <Button Command="{Binding Path=PrintCommand}" Content="印刷..."/>
+            <Button Command="{Binding Path=ImportCommand}" Content="インポート..."/>
+            <Button Command="{Binding Path=ExportCommand}" Content="エクスポート..."/>
+            <Button Content="閉じる" Click="Button_Click"/>
+            <TextBlock Width="32"/>
+            <Button Command="{Binding Path=HelpCommand}" Content="ヘルプ..."/>
+            <Button Command="{Binding Path=AboutCommand}" Content="バージョン情報..."/>
+        </StackPanel>
+    </Grid>
+</Window>
+<!--5月25日208-->

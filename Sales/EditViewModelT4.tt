@@ -1,0 +1,56 @@
+﻿<#@ template debug="true" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#@ include file="./T4WarningComment.txt" #>
+using System;
+
+namespace Sales
+{
+    partial class EditViewModel : ModelBase
+	{
+<# foreach(Field x in _fields) { #>
+        private <#= x.Type #> _<#= x.Name #>;
+		public <#= x.Type #> <#= x.Name #>
+		{
+		    get
+			{
+			    return _<#= x.Name #>;
+			}
+			set
+			{
+			    if(_<#= x.Name #> == value) return;
+				_<#= x.Name #> = value;
+
+				try
+				{
+				    _model.<#= x.Name #> = value;
+					base.UpdateErrors("<#= x.Name #>", "");
+				}
+				catch(Exception ex)
+				{
+				    base.UpdateErrors("<#= x.Name #>", ex.Message);
+				}
+
+				RaisePropertyChanged("<#= x.Name #>");
+				RaisePropertyChanged("Error");
+			}
+		}
+<# } #>
+	}
+}
+
+<#+
+    class Field {
+	    public string Name { get; set; }
+		public string Type { get; set; }
+	}
+	private static Field[] _fields = {
+	    new Field { Name = "Id"       , Type = "int"      },
+		new Field { Name = "Date"     , Type = "DateTime" },
+		new Field { Name = "Client"   , Type = "string"   },
+		new Field { Name = "Title"    , Type = "string"   },
+	};
+#>

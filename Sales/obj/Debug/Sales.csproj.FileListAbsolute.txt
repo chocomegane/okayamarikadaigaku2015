@@ -1,0 +1,101 @@
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\bin\Debug\Sales.exe.config
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\bin\Debug\Sales.exe
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\bin\Debug\Sales.pdb
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales.csprojResolveAssemblyReference.cache
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\MainWindow.baml
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\MainWindow.g.cs
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\App.g.cs
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales_MarkupCompile.cache
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales.g.resources
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales.Properties.Resources.resources
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales.csproj.GenerateResource.Cache
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales.exe
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales.pdb
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\EditView.baml
+c:\users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\EditView.g.cs
+C:\Users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\App.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Debug\ListView.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Debug\ListView.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Debug\Sales_MarkupCompile.lref
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales-old\Sales\bin\Debug\Sales.exe.config
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales-old\Sales\obj\Debug\Sales.exe
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales-old\Sales\obj\Debug\Sales.pdb
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Debug\EntityFramework.dll
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Debug\EntityFramework.xml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Debug\EntityFramework.SqlServer.xml
+H:\Sales\Sales\bin\Debug\Sales.exe.config
+H:\Sales\Sales\obj\Debug\Sales.exe
+H:\Sales\Sales\obj\Debug\Sales.pdb
+H:\Sales\Sales\obj\Debug\Sales.csprojResolveAssemblyReference.cache
+H:\Sales\Sales\obj\Debug\EditView.baml
+H:\Sales\Sales\obj\Debug\ListView.baml
+H:\Sales\Sales\obj\Debug\App.baml
+H:\Sales\Sales\obj\Debug\EditView.g.cs
+H:\Sales\Sales\obj\Debug\ListView.g.cs
+H:\Sales\Sales\obj\Debug\MainWindow.g.cs
+H:\Sales\Sales\obj\Debug\App.g.cs
+H:\Sales\Sales\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Sales\Sales\obj\Debug\Sales_MarkupCompile.cache
+H:\Sales\Sales\obj\Debug\Sales_MarkupCompile.lref
+E:\Sales\Sales\bin\Debug\Sales.exe.config
+E:\Sales\Sales\obj\Debug\Sales.exe
+E:\Sales\Sales\obj\Debug\Sales.csprojResolveAssemblyReference.cache
+E:\Sales\Sales\obj\Debug\EditView.baml
+E:\Sales\Sales\obj\Debug\ListView.baml
+E:\Sales\Sales\obj\Debug\App.baml
+E:\Sales\Sales\obj\Debug\EditView.g.cs
+E:\Sales\Sales\obj\Debug\ListView.g.cs
+E:\Sales\Sales\obj\Debug\MainWindow.g.cs
+E:\Sales\Sales\obj\Debug\App.g.cs
+E:\Sales\Sales\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Sales\Sales\obj\Debug\Sales_MarkupCompile.cache
+E:\Sales\Sales\obj\Debug\Sales_MarkupCompile.lref
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\TotalReportView.baml
+C:\Users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\TotalReportView.g.cs
+C:\Users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\AboutView.baml
+C:\Users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\AboutView.g.cs
+C:\Users\suto3\documents\visual studio 2013\Projects\Sales\Sales\obj\Debug\Sales_Content.g.cs
+C:\Users\suto3\documents\visual studio 2013\Projects\Sales\Sales\bin\Debug\Help.html
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Debug\cbm-q756-top.jpg
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Debug\Sales.exe.manifest
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Debug\Sales.application
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Debug\Sales.exe.manifest
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Debug\Sales.application
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\Sales.exe.config
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.exe
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.pdb
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\Help.html
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\Sales.exe.manifest
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\Sales.application
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\Sales.exe
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\Sales.pdb
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\EntityFramework.dll
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\Newtonsoft.Json.dll
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\EntityFramework.xml
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.csprojResolveAssemblyReference.cache
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\AboutView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\ListView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\TotalReportView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\App.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\AboutView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\EditView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\ListView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\MainWindow.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\TotalReportView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\App.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales_Content.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales_MarkupCompile.cache
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales_MarkupCompile.lref
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\EditView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\MainWindow.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.g.resources
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.Properties.Resources.resources
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.csproj.GenerateResource.Cache
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.exe.manifest
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Debug\Sales.application
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Debug\50th.gif

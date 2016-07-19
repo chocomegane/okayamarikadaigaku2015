@@ -1,0 +1,97 @@
+﻿<Window x:Class="Sales.ListView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="一覧" Height="600" Width="800"
+        WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <Style x:Key="listViewItem" TargetType="ListViewItem">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="0.1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="Height" Value="35"/>
+        </Style>
+        <DataTemplate x:Key="date">
+            <TextBlock Text="{Binding Path=Date, StringFormat=yyyy/MM/dd}" />
+        </DataTemplate>
+        <DataTemplate x:Key="client">
+            <TextBlock Text="{Binding Path=Client}" />
+        </DataTemplate>
+        <DataTemplate x:Key="title" >
+            <TextBlock Text="{Binding Path=Title}" />
+        </DataTemplate>
+        <DataTemplate x:Key="price">
+            <TextBlock
+                HorizontalAlignment="Right"
+                Text="{Binding Path=Price, StringFormat=##\,###\,###}" />
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Margin="2" Grid.Column="0" Orientation="Horizontal">
+                <TextBlock Width="80" 
+                           Text="{Binding Path=Year, StringFormat=####年度生, Mode=OneTime}"/>
+                <TextBlock Width="50" 
+                           Text="{Binding Path=Month, StringFormat=##年生, Mode=OneTime}"/>
+               <!-- <TextBlock Width="120" 
+                           Text="{Binding Path=Section, Mode=OneTime}"/>-->
+            </StackPanel>
+            <!--<TextBlock
+                Margin="2"
+                Grid.Column="2"
+                HorizontalAlignment="Center"
+                Text="{Binding Path=TotalPrice, StringFormat=合計額:##\,###\,###, Mode=OneWay}"/>-->
+        </Grid>
+        <ListView
+            Grid.Row="1"
+            Margin="2"
+            ItemContainerStyle="{StaticResource listViewItem}"
+            Background="LightGray"
+            ItemsSource="{Binding Path=Items, Mode=OneWay}"
+            SelectedItem="{Binding Path=Item, Mode=TwoWay}"
+            SelectionMode="Single">
+            <ListView.View>
+                <GridView>
+      <!--   <GridViewColumn Width="100" 
+                                    CellTemplate="{StaticResource date}"
+                                    Header="日付"/>             -->
+                    <GridViewColumn Width="250" 
+                                    CellTemplate="{StaticResource client}"
+                                    Header="群"/>
+                    <GridViewColumn Width="250" 
+                                    CellTemplate="{StaticResource title}"
+                                    Header="授業科目"/>
+                    <GridViewColumn Width="100" 
+                                    CellTemplate="{StaticResource price}"
+                                    Header="単位数"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Grid.Row="2">
+            <Button 
+                Command="{Binding Path=RenewCommand}"
+                Content="最新の状態に更新"/>
+            <Button 
+                Command="{Binding Path=AppendCommand}"
+                Content="追加"/>
+            <Button 
+                Command="{Binding Path=UpdateCommand}"
+                Content="変更"/>
+            <Button 
+                Command="{Binding Path=DeleteCommand}"
+                Content="削除"/>
+            <Button 
+                Command="{Binding Path=CloseCommand}"
+                Content="閉じる"/>
+        </StackPanel>
+    </Grid> 
+</Window>

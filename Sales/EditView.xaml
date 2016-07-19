@@ -1,0 +1,88 @@
+﻿<Window x:Class="Sales.EditView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:l="clr-namespace:Sales"
+        Title="編集" Height="300" Width="500" WindowStyle="ToolWindow" Foreground="Black">
+    <Window.Resources>
+        <Style TargetType="ComboBox" >
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+        <Style TargetType="DatePicker">
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="4"/>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter
+                        Property="ToolTip"
+                        Value="{Binding 
+                         RelativeSource={x:Static RelativeSource.Self},
+                         Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="errorStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="85*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--<TextBlock Grid.Column="0" Grid.Row="0" Text="部門:"/>
+        <ComboBox 
+            Grid.Column="1" 
+            Grid.Row="0" 
+            ItemsSource="{x:Static l:Sections.Items}"
+            SelectedItem="{Binding Path=Section, ValidatesOnDataErrors=True}"/>-->
+
+        <!--<TextBlock
+            Grid.Column="0" 
+            Grid.Row="1" 
+            Text="日付:"/>
+        <DatePicker 
+            Grid.Column="1" 
+            Grid.Row="1"
+            SelectedDate="{Binding Path=Date, ValidatesOnDataErrors=True}"/>  -->
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="群:"/>
+        <TextBox Grid.Column="1" Grid.Row="0" 
+                 Text="{Binding Path=Client, ValidatesOnDataErrors=True}"/>
+        <TextBlock
+            Grid.Column="0" Grid.Row="2" Text="授業科目:"/>
+        <TextBox Grid.Column="1" Grid.Row="2" 
+                 Text="{Binding Path=Title, ValidatesOnDataErrors=True}"/>
+        <TextBlock
+            Grid.Column="0" Grid.Row="4" Text="単位数:"/>
+        <TextBox Grid.Column="1" Grid.Row="4" 
+                 Text="{Binding Path=Price, ValidatesOnDataErrors=True}"/>
+
+        <TextBlock
+            Grid.Column="0"
+            Grid.Row="5"
+            Grid.ColumnSpan="2"
+            Style="{StaticResource errorStyle}"
+            Text="{Binding Path=Error, Mode=OneWay}"/>
+
+        <!-- コマンド -->
+        <StackPanel
+            Grid.Column="0"
+            Grid.Row="6"
+            Grid.ColumnSpan="2">
+            <Button Command="{Binding Path=OkCommand}" Content="OK"/>
+            <Button Command="{Binding Path=CancelCommand}" Content="Cancel"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

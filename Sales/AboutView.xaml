@@ -1,0 +1,53 @@
+﻿<Window x:Class="Sales.AboutView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="バージョン情報" Height="200" Width="300"
+        WindowStyle="ToolWindow"
+        WindowStartupLocation="CenterOwner">
+<Grid Margin="8">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="80"/>
+        <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <TextBlock Grid.Row="0" Text="タイトル:"/>
+    <TextBlock Grid.Row="0" 
+                   Grid.Column="1"
+                   Text="{Binding Path=Title, Mode=OneTime}"/>
+    <TextBlock Grid.Row="1" Text="製品名:"/>
+    <TextBlock
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="{Binding Path=Product, Mode=OneTime}"/>
+    <TextBlock Grid.Row="2" Text="バージョン:"/>
+    <TextBlock 
+            Grid.Row="2" 
+            Grid.Column="1"
+            Text="{Binding Path=Version, Mode=OneTime}"/>
+    <TextBlock Grid.Row="3" Text="著作権:"/>
+    <TextBlock
+            Grid.Row="3"
+            Grid.Column="1"
+            Text="{Binding Path=Copyright, Mode=OneTime}"/>
+    <TextBlock Grid.Row="4" Text="会社名:"/>
+    <TextBlock 
+            Grid.Row="4" 
+            Grid.Column="1"
+            Text="{Binding Path=Company, Mode=OneTime}"/>
+    <TextBlock Grid.Row="5" Text="説明:"/>
+    <TextBlock 
+            Grid.Row="5" 
+            Grid.Column="1"
+            Text="{Binding Path=Description, Mode=OneTime}"/>
+
+
+
+</Grid>
+</Window>

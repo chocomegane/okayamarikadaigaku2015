@@ -1,0 +1,117 @@
+﻿<#@ template debug="true" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#@ include file="./T4WarningComment.txt" #>
+using System;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
+namespace Sales
+{
+   class Result : INotifyPropertyChanged
+   {
+      private readonly ValidationContext _validationContext;
+	  public event PropertyChangedEventHandler PropertyChanged;
+
+	  public Result()
+	  {
+	     _validationContext = new ValidationContext(this, null, null);
+<# foreach(Field x in _fields) { #>
+         <#= x.Name #> = <#= x.DefaultValue #>;
+<# } #>
+	  }
+
+	  protected virtual void RaisePropertyChanged(string propertyName)
+	  {
+	     if (PropertyChanged == null) return;
+		 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+	  }
+<# foreach(Field x in _fields) { #>
+      private <#= x.Type #> _<#= x.Name #>;
+	  <#= string.IsNullOrEmpty(x.Validate) ? "" : x.Validate #>
+	  public <#= x.Type #> <#= x.Name #>
+	  {
+	     get
+		 {
+		    return _<#= x.Name #>;
+		 }
+		 set
+		 {
+		    if (_<#= x.Name #> == value) return;
+			_validationContext.MemberName = "<#= x.Name #>";
+			Validator.ValidateProperty(value, _validationContext);
+			_<#= x.Name #> = value;
+			RaisePropertyChanged("<#= x.Name #>");
+		 }
+	  }
+<# } #>
+
+	  public void SetProperties(Result source)
+	  {
+<# foreach(Field x in _fields) { #>
+         <#= x.Name #> = source.<#= x.Name #>;
+<# } #>
+	  }
+   }
+}
+
+
+<#+
+    class Field
+	{
+	   public string Name { get; set; }
+	   public string Type { get; set; }
+	   public string DefaultValue { get; set; }
+	   public string Validate { get; set; }
+	}
+	private static Field[] _fields = 
+	{
+	   new Field
+	   {
+	      Name = "Id",
+		  Type = "int",
+		  DefaultValue = "0",
+		  Validate = ""
+
+	   },
+	   new Field
+	   {
+	      Name = "Date",
+		  Type = "DateTime",
+		  DefaultValue = "DateTime.Today",
+		  Validate = ""
+
+	   },
+	   new Field
+	   {
+	      Name = "SectionId",
+		  Type = "byte",
+		  DefaultValue = "1",
+		  Validate = "[Range(1,byte.MaxValue,ErrorMessage=\"設定可能な値の範囲外です\")]"
+	   },
+	   new Field
+	   {
+	      Name = "Client",
+		  Type = "string",
+		  DefaultValue = "string.Empty",
+		  Validate = "[StringLength(32, ErrorMessage=\"32文字以内で設定してください\")]"
+	   },
+	   new Field
+	   {
+	      Name = "Title",
+		  Type = "string",
+		  DefaultValue = "string.Empty",
+		  Validate = "[StringLength(32, ErrorMessage=\"32文字以内で設定してください\")]"
+	   },
+	   new Field
+	   {
+	      Name = "Price",
+		  Type = "int",
+		  DefaultValue = "0",
+		  Validate = "[Range(0,99999999, ErrorMessage=\"設定可能な値の範囲外です\")]"
+	   }
+	};
+#>

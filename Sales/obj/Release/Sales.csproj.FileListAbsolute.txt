@@ -1,0 +1,186 @@
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\Sales.exe.config
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\Help.html
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\cbm-q756-top.jpg
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\Sales.exe
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\Sales.pdb
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\EntityFramework.dll
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\EntityFramework.xml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\AboutView.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\ListView.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\TotalReportView.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\App.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\AboutView.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\EditView.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\ListView.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\MainWindow.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\TotalReportView.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\App.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales_Content.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales_MarkupCompile.cache
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales_MarkupCompile.lref
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\EditView.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\MainWindow.baml
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.g.resources
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.Properties.Resources.resources
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.csproj.GenerateResource.Cache
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.exe
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.pdb
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\Sales.exe.manifest
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\bin\Release\Sales.application
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.csprojResolveAssemblyReference.cache
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.exe.manifest
+C:\Users\suto3\Documents\Visual Studio 2013\Projects\Sales\Sales\obj\Release\Sales.application
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\Sales.exe.config
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.exe
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.pdb
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\Help.html
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\50th.gif
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\Sales.exe.manifest
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\Sales.application
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\Sales.exe
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\Sales.pdb
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\EntityFramework.dll
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\Newtonsoft.Json.dll
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\EntityFramework.xml
+C:\Users\suto3\Desktop\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.csprojResolveAssemblyReference.cache
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\AboutView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\ListView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\TotalReportView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\App.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\AboutView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\EditView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\ListView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\MainWindow.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\TotalReportView.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\App.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales_Content.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.cache
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.lref
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\EditView.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\MainWindow.baml
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.g.resources
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.Properties.Resources.resources
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.csproj.GenerateResource.Cache
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.exe.manifest
+C:\Users\suto3\Desktop\Sales-summar\Sales\obj\Release\Sales.application
+F:\Sales-summar\Sales\bin\Release\Sales.exe.config
+F:\Sales-summar\Sales\obj\Release\Sales.exe
+F:\Sales-summar\Sales\obj\Release\Sales.pdb
+F:\Sales-summar\Sales\bin\Release\Help.html
+F:\Sales-summar\Sales\bin\Release\50th.gif
+F:\Sales-summar\Sales\bin\Release\Sales.exe.manifest
+F:\Sales-summar\Sales\bin\Release\Sales.application
+F:\Sales-summar\Sales\bin\Release\Sales.exe
+F:\Sales-summar\Sales\bin\Release\Sales.pdb
+F:\Sales-summar\Sales\bin\Release\EntityFramework.dll
+F:\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.dll
+F:\Sales-summar\Sales\bin\Release\Newtonsoft.Json.dll
+F:\Sales-summar\Sales\bin\Release\EntityFramework.xml
+F:\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.xml
+F:\Sales-summar\Sales\obj\Release\Sales.csprojResolveAssemblyReference.cache
+F:\Sales-summar\Sales\obj\Release\AboutView.baml
+F:\Sales-summar\Sales\obj\Release\ListView.baml
+F:\Sales-summar\Sales\obj\Release\TotalReportView.baml
+F:\Sales-summar\Sales\obj\Release\App.baml
+F:\Sales-summar\Sales\obj\Release\AboutView.g.cs
+F:\Sales-summar\Sales\obj\Release\EditView.g.cs
+F:\Sales-summar\Sales\obj\Release\ListView.g.cs
+F:\Sales-summar\Sales\obj\Release\MainWindow.g.cs
+F:\Sales-summar\Sales\obj\Release\TotalReportView.g.cs
+F:\Sales-summar\Sales\obj\Release\App.g.cs
+F:\Sales-summar\Sales\obj\Release\Sales_Content.g.cs
+F:\Sales-summar\Sales\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.cache
+F:\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.lref
+F:\Sales-summar\Sales\obj\Release\EditView.baml
+F:\Sales-summar\Sales\obj\Release\MainWindow.baml
+F:\Sales-summar\Sales\obj\Release\Sales.g.resources
+F:\Sales-summar\Sales\obj\Release\Sales.Properties.Resources.resources
+F:\Sales-summar\Sales\obj\Release\Sales.csproj.GenerateResource.Cache
+F:\Sales-summar\Sales\obj\Release\Sales.exe.manifest
+F:\Sales-summar\Sales\obj\Release\Sales.application
+E:\Sales-summar\Sales\bin\Release\Sales.exe.config
+E:\Sales-summar\Sales\obj\Release\Sales.exe
+E:\Sales-summar\Sales\obj\Release\Sales.pdb
+E:\Sales-summar\Sales\bin\Release\Help.html
+E:\Sales-summar\Sales\bin\Release\50th.gif
+E:\Sales-summar\Sales\bin\Release\Sales.exe.manifest
+E:\Sales-summar\Sales\bin\Release\Sales.application
+E:\Sales-summar\Sales\bin\Release\Sales.exe
+E:\Sales-summar\Sales\bin\Release\Sales.pdb
+E:\Sales-summar\Sales\bin\Release\EntityFramework.dll
+E:\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.dll
+E:\Sales-summar\Sales\bin\Release\Newtonsoft.Json.dll
+E:\Sales-summar\Sales\bin\Release\EntityFramework.xml
+E:\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.xml
+E:\Sales-summar\Sales\obj\Release\Sales.csprojResolveAssemblyReference.cache
+E:\Sales-summar\Sales\obj\Release\AboutView.baml
+E:\Sales-summar\Sales\obj\Release\ListView.baml
+E:\Sales-summar\Sales\obj\Release\TotalReportView.baml
+E:\Sales-summar\Sales\obj\Release\App.baml
+E:\Sales-summar\Sales\obj\Release\AboutView.g.cs
+E:\Sales-summar\Sales\obj\Release\EditView.g.cs
+E:\Sales-summar\Sales\obj\Release\ListView.g.cs
+E:\Sales-summar\Sales\obj\Release\MainWindow.g.cs
+E:\Sales-summar\Sales\obj\Release\TotalReportView.g.cs
+E:\Sales-summar\Sales\obj\Release\App.g.cs
+E:\Sales-summar\Sales\obj\Release\Sales_Content.g.cs
+E:\Sales-summar\Sales\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.cache
+E:\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.lref
+E:\Sales-summar\Sales\obj\Release\EditView.baml
+E:\Sales-summar\Sales\obj\Release\MainWindow.baml
+E:\Sales-summar\Sales\obj\Release\Sales.g.resources
+E:\Sales-summar\Sales\obj\Release\Sales.Properties.Resources.resources
+E:\Sales-summar\Sales\obj\Release\Sales.csproj.GenerateResource.Cache
+E:\Sales-summar\Sales\obj\Release\Sales.exe.manifest
+E:\Sales-summar\Sales\obj\Release\Sales.application
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Sales.exe.config
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.exe
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.pdb
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Help.html
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\50th.gif
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Sales.exe.manifest
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Sales.application
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Sales.exe
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Sales.pdb
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\EntityFramework.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Microsoft.TeamFoundation.Controls.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Microsoft.TeamFoundation.Common.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Microsoft.TeamFoundation.Client.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Microsoft.VisualStudio.Services.Client.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Microsoft.TeamFoundation.Diff.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\EntityFramework.xml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.csprojResolveAssemblyReference.cache
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\AboutView.baml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\ListView.baml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\TotalReportView.baml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\App.baml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\AboutView.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\EditView.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\ListView.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\MainWindow.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\TotalReportView.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\App.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales_Content.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.cache
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales_MarkupCompile.lref
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\EditView.baml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\MainWindow.baml
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.g.resources
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.Properties.Resources.resources
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.csproj.GenerateResource.Cache
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.exe.manifest
+C:\Users\Ownrer\Pictures\Documents\Visual Studio 2015\Projects\Sales-summar\Sales\obj\Release\Sales.application
